@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(0 0 0);
+}
+
+.page{
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  cursor: pointer;
+}
+
+ul li a{
+  font-family: 'JetBrains Mono', monospace;
+  color: white;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  
+}
+
+h1{
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  color: white;
+  border: 0;
+  padding: 14px 32px 15px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+button{
+  text-transform: uppercase;
+  font-family: 'JetBrains Mono', monospace;
+  color: black;
+  border: 0;
+  padding: 10px 30px 10px;
+  
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  gap: 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+}
